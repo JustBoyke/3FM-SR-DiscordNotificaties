@@ -3,7 +3,7 @@ const axios = require('axios');
 const fs = require('fs');
 require('dotenv').config();
 
-const URL = process.env.URL;
+const URL = process.env.URL
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 const HISTORY_FILE = './donations.json';
 
